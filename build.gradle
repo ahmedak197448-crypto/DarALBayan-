@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.daralbayan.app'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.daralbayan.app'
+        minSdk 23
+        targetSdk 28
+        versionCode 223
+        versionName '2.23'
+    }
+}
